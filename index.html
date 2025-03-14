@@ -1,0 +1,62 @@
+<!-- to post on Netlify and GitHub -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Job Application Tracker</h1>
+
+        <form id="jobForm">
+            <input type="text" id="company" placeholder="Company Name" required>
+            <input type="text" id="position" placeholder="Job Position" required>
+            <input type="date" id="date" required>
+            <select id="status">
+                <option value="Applied">Applied</option>
+                <option value="Interview">Interview</option>
+                <option value="Offer">Offer</option>
+                <option value="Rejected">Rejected</option>
+            </select>
+            <button type="submit">Add Job</button>
+        </form>
+
+        <div class="controls" style="margin-top: 10px">
+            <select id="filterStatus">
+                <option value="All">All Statuses</option>
+                <option value="Applied">Applied</option>
+                <option value="Interview">Interview</option>
+                <option value="Offer">Offer</option>
+                <option value="Rejected">Rejected</option>
+            </select>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Date Applied</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="jobList">
+
+            </tbody>
+        </table>
+        <button id="exportPDF">Export to PDF</button>
+        <button id="darkModeToggle" style="border: none; background: none; color: black; margin-top: 20px">🌙 Dark
+            Mode</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+</body>
+
+</html>
