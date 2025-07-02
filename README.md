@@ -1,20 +1,20 @@
-# 🧾 Job Applications Tracker
+#  Job Applications Tracker
 
 A simple, intuitive web application built with **JavaScript** that helps users keep track of the jobs they’ve applied to. The tool allows you to input application details, monitor the status, and export everything as a neat **PDF report**.
 
-## ✨ Features
+##  Features
 
-- ✅ Add job applications:  
+-  Add job applications:  
 
-- 📄 Download a **PDF** report with all applications
+-  Download a **PDF** report with all applications
 
-- 🌙 Light & Dark mode toggle for user comfort
+-  Light & Dark mode toggle for user comfort
 
-- 💾 Data persistence (optional: localStorage support or download option)
+-  Data persistence (optional: localStorage support or download option)
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Access this live demo link with the website: https://astounding-cheesecake-198ba9.netlify.app/
 2. Fill in the form with job application details.
@@ -23,7 +23,7 @@ A simple, intuitive web application built with **JavaScript** that helps users k
 5. Toggle between **Dark** and **Light** mode using the theme switch.
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML
 - CSS (for layout and theming)
